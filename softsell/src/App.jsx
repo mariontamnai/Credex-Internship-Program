@@ -2,6 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Hero from './components/Hero'
+import HowItWorks from './components/HowItWorks'
+import ContactForm from './components/ContactForm'
+import Testimonials from './components/Testimonials'
+import WhyChooseUs from './components/WhyChooseUs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +14,12 @@ function App() {
   return (
     <>
       <div>
+        <Hero />
+        <HowItWorks />
+        <ContactForm />
+        <Testimonials />
+        <WhyChooseUs />
+
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
